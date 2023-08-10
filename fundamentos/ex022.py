@@ -1,0 +1,5 @@
+nomeCompleto = str(input('Write your complete name: '))
+print(f'\nNome completo upper: {nomeCompleto.upper()}')
+print(f'Nome completo lower: {nomeCompleto.lower()}')
+print(f'Quantidade de letras no nome sem spaces: {len("".join(nomeCompleto.split()))}')
+print(f'Quantidade de letras do primeiro nome: {len(nomeCompleto.split()[0])}')
